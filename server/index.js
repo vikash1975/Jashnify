@@ -11,7 +11,10 @@ const bookingRoutes = require("./routes/bookingRoutes");
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  // origin: "http://localhost:5173"
+  origin:"https://jashnify.onrender.com"
+}));
 app.use(express.json());
 
 app.get("/", (req, res) => {
