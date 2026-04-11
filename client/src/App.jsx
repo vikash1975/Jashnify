@@ -8,7 +8,7 @@ import UserDashboard from './pages/UserDashboard';
 import AdminDashboard from './pages/AdminDashboard';
 import PaymentSuccess from './pages/PaymentSuccess';
 import PaymentFailed from './pages/PaymentFailed';
-import Navbar from './components/NavBar';
+import Navbar from './components/Navbar';
 
 
 function App() {
